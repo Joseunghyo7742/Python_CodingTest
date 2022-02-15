@@ -18,7 +18,7 @@ def binary_search(array, target, start, end):
             end= mid-1
         else:
             start=mid+1
-            
+    return None
 n= int(input())
 arr= list(map(int, input().split()))
 arr.sort()
